@@ -1,5 +1,10 @@
 Um simples repositório com o conteúdo básico de sql 
-como Criar tabelas , adcionar dados a uma tabela , combinar tabelas , apagar e visualizar tabelas.
+Como criar tabelas , adcionar dados a uma tabela , combinar tabelas , apagar ,Atualizar , visualizar tabelas.
 
 exemplo:
-DROP TABLE CLIENTES;
+SELECT * FROM CLIENTES // Para selecionar os dados ,visualizando eles.
+
+DROP TABLE CLIENTES; //para excluir tabelas 
+
+UPDATE CLIENTES SET NOME = Jose WHERE ID= '1121242';  //Para alterar tabelas
+
