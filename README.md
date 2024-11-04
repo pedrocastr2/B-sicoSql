@@ -3,6 +3,7 @@ Como criar tabelas , adcionar dados a uma tabela , combinar tabelas , apagar ,At
 
 exemplo:
 SELECT * FROM CLIENTES // Para selecionar os dados ,visualizando eles.
+SELECT * FROM CLIENTES where id = 12131;
 
 DROP TABLE CLIENTES; //para excluir tabelas 
 
